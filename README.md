@@ -1,1 +1,99 @@
-Pagina Web
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Reciclaje y Economía Circular</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="icon" href="icon.ico">
+</head>
+<body>
+    <!---encabezado-->  
+    <header>
+        <div class="container">
+            <h1>Procesos de Reciclaje y Economía Circular</h1>
+            <nav>
+                <ul>
+                    <li><a href="#reciclaje">¿Qué es el Reciclaje?</a></li>
+                    <li><a href="#economia-circular">Economía Circular</a></li>
+                    <li><a href="#beneficios">Beneficios</a></li>
+                    <li><a href="#extra-info">Retos y Futuro</a></li>
+                    <li><a href="#enlaces">Enlaces</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!---Conceptos-->
+    <section id="reciclaje" class="section">
+        <div class="container">
+            <h2>¿Qué es el Reciclaje?</h2>
+            <p>El reciclaje es el proceso de convertir los residuos en nuevos productos para evitar el desperdicio de materiales potencialmente útiles, reduciendo así el consumo de recursos y la contaminación.</p>
+            <p>Este proceso no solo ayuda a conservar los recursos naturales, sino que también reduce la huella de carbono y fomenta hábitos más sostenibles en la sociedad.</p>
+            <center><img src="eco.jpg" alt="Reciclaje de plásticos" class="section-image"></center>
+        </div>
+    </section>
+
+    <section id="economia-circular" class="section">
+        <div class="container">
+            <h2>Economía Circular</h2>
+            <p>La economía circular es un modelo de producción y consumo que promueve la <strong>reutilización</strong> de productos y materiales en lugar de desecharlos.</p>
+            <p>En lugar de seguir el ciclo tradicional de <em>“tomar, hacer, desechar”</em>, busca extender la vida útil de los productos mediante el reciclaje, la reparación y el rediseño de materiales, con el fin de crear un sistema más sostenible y regenerativo.</p>
+            <center><img src="ec.jpg" class="section-image"></center>
+        </div>
+    </section>
+<!---Beneficios-->
+    <section id="beneficios" class="section">
+        <div class="container">
+            <h2>Beneficios del Reciclaje y la Economía Circular</h2>
+            <ul>
+                <li>✅ Reducción de residuos en vertederos</li>
+                <li>🌱 Ahorro de recursos naturales</li>
+                <li>💧 Disminución de la contaminación del aire, agua y suelo</li>
+                <li>👩‍💼 Generación de nuevos empleos en sectores verdes</li>
+                <li>♻️ Fomento de una economía más sostenible y eficiente</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="extra-info" class="section">
+        <div class="container">
+            <h2>Retos Actuales y Futuro del Reciclaje</h2>
+            <p>Uno de los mayores retos del reciclaje es la <strong>correcta clasificación de los residuos</strong>. Muchos materiales reciclables terminan en la basura común, dificultando su recuperación.</p>
+            <p>Gracias a la innovación tecnológica, se han implementado sistemas inteligentes: sensores para detectar niveles de llenado en contenedores, aplicaciones móviles para educar al consumidor y nuevas técnicas de reciclaje químico para plásticos complejos.</p>
+            <p>El futuro del reciclaje depende del desarrollo de <strong>políticas públicas</strong>, mayor <strong>educación ambiental</strong> y el compromiso de las empresas en diseñar productos más fáciles de reutilizar y reciclar.</p>
+            <center><img src="verde.jpg" class="section-image"></center>
+        </div>
+    </section>
+
+    <!-- Tabla de enlaces -->
+    <footer id="enlaces">
+        <div class="container">
+            <h2>Enlaces de Consulta</h2>
+            <table>
+                <tr>
+                    <th>Tema</th>
+                    <th>Fuente</th>
+                </tr>
+                <tr>
+                    <td>¿Qué es el Reciclaje?</td>
+                    <td><a href="https://www.epa.gov/recycle/what-recycling" target="_blank">EPA - ¿Qué es el reciclaje?</a></td>
+                </tr>
+                <tr>
+                    <td>Economía Circular</td>
+                    <td><a href="https://www.wbcsd.org/Programs/Circular-Economy" target="_blank">WBCSD - Economía Circular</a></td>
+                </tr>
+                <tr>
+                    <td>Beneficios</td>
+                    <td><a href="https://www.un.org/sustainabledevelopment/sustainable-consumption-production/" target="_blank">Naciones Unidas - Consumo y Producción</a></td>
+                </tr>
+                <tr>
+                    <td>Retos y Futuro</td>
+                    <td><a href="https://www.oecd.org/environment/waste/policy-highlights-circular-economy.pdf" target="_blank">OECD - Economía Circular</a></td>
+                </tr>
+            </table>
+            <p class="autor">Autor: Luis Vásquez - 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
